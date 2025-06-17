@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 07-Feb-2025, 1:10:19 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="in.co.rays.project_3.dto">
+	<class name="CustomerDTO" table="ST_CUSTOMER">
+		<id name="id" type="java.lang.Long">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="clientName" type="java.lang.String">
+            <column name="CLIENTNAME" />
+        </property>
+        <property name="importance" type="int">
+            <column name="IMPORTANCE" />
+        </property>
+        <property name="contactNumber" type="long">
+            <column name="CONTACTNUMBER" />
+        </property>
+        <property name="location" type="java.lang.String">
+            <column name="LOCATION" />
+        </property>
+    </class>
+</hibernate-mapping>
