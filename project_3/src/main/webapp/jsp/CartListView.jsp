@@ -39,7 +39,7 @@
 </style>
 </head>
 
-<body class="hm">
+<body class="">
 	<%@include file="Header.jsp"%>
 	<%@include file="calendar.jsp"%>
 	<div></div>
@@ -66,7 +66,7 @@
 			%>
 			<center>
 				<h1 class="text-primary font-weight-bold pt-3">
-					<u>Cart list</u>
+					<u>Cart List</u>
 				</h1>
 			</center>
 			<div class="row">
