@@ -119,7 +119,7 @@
 				</div>
 				<div class="row">
 
-					<div class="col-sm-5">
+					<div class="col-sm-2">
 						<input type="text" name="productQuantity"
 							placeholder="Enter Product Quantity" class="form-control"
 							value="<%=ServletUtility.getParameter("productQuantity", request)%>">
@@ -176,21 +176,21 @@
 				<table width="100%">
 					<tr>
 						<td><input type="submit" name="operation"
-							class="btn btn-warning btn-md" style="font-size: 17px"
+							class="btn btn-warning btn-md" style="font-size: 15px"
 							value="<%=CartListCtl.OP_PREVIOUS%>"
 							<%=pageNo > 1 ? "" : "disabled"%>></td>
 
 						<td><input type="submit" name="operation"
-							class="btn btn-primary btn-md" style="font-size: 17px"
+							class="btn btn-primary btn-md" style="font-size: 15px"
 							value="<%=CartListCtl.OP_NEW%>"></td>
 
 						<td><input type="submit" name="operation"
-							class="btn btn-danger btn-md" style="font-size: 17px"
+							class="btn btn-danger btn-md" style="font-size: 15px"
 							value="<%=CartListCtl.OP_DELETE%>"></td>
 
 						<td align="right"><input type="submit" name="operation"
-							class="btn btn-warning btn-md" style="font-size: 17px"
-							style="padding: 5px;" value="<%=CartListCtl.OP_NEXT%>"
+							class="btn btn-warning btn-md" style="font-size: 15px"
+							style="padding: 2px;" value="<%=CartListCtl.OP_NEXT%>"
 							<%=(nextPageSize != 0) ? "" : "disabled"%>></td>
 					</tr>
 					<tr></tr>
