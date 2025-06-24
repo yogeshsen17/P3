@@ -39,7 +39,7 @@
 </style>
 </head>
 
-<body class="">
+<body class="hm">
 	<%@include file="Header.jsp"%>
 	<%@include file="calendar.jsp"%>
 	<div></div>
