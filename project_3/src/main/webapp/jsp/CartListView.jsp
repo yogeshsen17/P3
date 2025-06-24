@@ -66,7 +66,7 @@
 			%>
 			<center>
 				<h1 class="text-primary font-weight-bold pt-3">
-					<u>Cart List</u>
+					<u>Cart list</u>
 				</h1>
 			</center>
 			<div class="row">
@@ -117,13 +117,7 @@
 						readonly="readonly"
 						value="<%=DataUtility.getDateString(dto.getTransactionDate())%>">
 				</div>
-				<div class="row">
-
-					<div class="col-sm-2">
-						<input type="text" name="productQuantity"
-							placeholder="Enter Product Quantity" class="form-control"
-							value="<%=ServletUtility.getParameter("productQuantity", request)%>">
-					</div>
+				
 
 					<div class="col-sm-2">
 						<input type="submit" class="btn btn-primary btn-md"
